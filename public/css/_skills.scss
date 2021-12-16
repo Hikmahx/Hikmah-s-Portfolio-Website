@@ -1,0 +1,13 @@
+.skills{
+  .container{
+    &::-webkit-scrollbar {
+      display: none;
+  }
+    scroll-padding: 0;
+    scroll-snap-type: inline mandatory;
+
+    .skill{
+      scroll-snap-align: center;
+    }
+  }
+}
