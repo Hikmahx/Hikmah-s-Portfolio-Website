@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo.png'
+// import logo from '../assets/logo.png'
 
 const Navbar = () => {
   const displayMenu = ()=>{
@@ -12,8 +12,9 @@ const Navbar = () => {
   return (
     <header className="absolute text-white left-0 right-0 flex items-baseline md:items-center justify-between z-20 md:my-8 md:mx-10 lg:my-16 lg:mx-20">
       <div className="logo m-6 md:m-0">
-        <a href="/">
-          <img className="w-36" src={logo} alt="logo" />
+        <a className="text-base" href="/">
+          {/* <img className="w-28" src={logo} alt="logo" /> */}
+          HY
         </a>
       </div>
       <div onClick={displayMenu} className="hamburger-menu z-10 m-6 md:m-0 md:hidden cursor-pointer flex flex-col items-center">
