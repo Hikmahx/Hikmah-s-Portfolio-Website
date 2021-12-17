@@ -5,7 +5,8 @@
         "style.scss",
         "_nav.scss",
         "_hero.scss",
-        "_skills.scss"
+        "_skills.scss",
+        "_projects.scss"
     ],
     "names": [],
     "file": "style.css"
