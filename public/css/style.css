@@ -125,4 +125,23 @@ header .menu ul {
 .skills .container .skill {
   scroll-snap-align: center;
 }
+
+.projects .project .info p {
+  color: #9194a1;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.projects .project .info .links a {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.projects .project .info .links a:hover {
+  -webkit-transform: translateY(-0.4rem);
+          transform: translateY(-0.4rem);
+}
 /*# sourceMappingURL=style.css.map */

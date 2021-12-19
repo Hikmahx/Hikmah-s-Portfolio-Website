@@ -1,0 +1,20 @@
+.projects{
+  .project{
+    .info{
+      p{
+        color: #9194a1;
+        height: max-content;
+      }
+
+      .links{
+        a{
+          transform: translateY(0);
+          transition: 0.4s ease-in-out;
+          &:hover{
+            transform: translateY(-0.4rem);
+          }
+        }
+      }
+    }
+  }
+}
