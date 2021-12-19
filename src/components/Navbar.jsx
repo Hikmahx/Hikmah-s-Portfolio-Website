@@ -24,16 +24,16 @@ const Navbar = () => {
       <nav className="menu flex-1 fixed md:relative top-0 right-0 left-24 md:left-0 pt-28 md:pt-0 pl-8 md:pl-0">
         <ul className="flex md:items-center md:justify-end text-white uppercase h-screen md:h-auto flex-col md:flex-row">
           <li onClick={displayMenu} className="mx-6 md:mx-3 my-3 md:w-auto text-center">
-            <a href="#home sm:text-xl md:text-base ">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li onClick={displayMenu} className="mx-6 md:mx-3 my-3 md:w-auto text-center">
-            <a href="#projects sm:text-xl md:text-base ">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li onClick={displayMenu} className="mx-6 md:mx-3 my-3 md:w-auto text-center">
-            <a href="#contact sm:text-xl md:text-base ">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
           <li onClick={displayMenu} style={{borderColor:'#6cfdf0'}} className="mx-6 md:mx-3 my-3 md:w-auto text-center border-2 rounded">
-            <a href="/" className=" sm:text-xl md:text-base py-6 md:py-4 px-6 hover:text-black transition-colors">Resume</a>
+            <a href="/" className="py-6 md:py-4 px-6 hover:text-black transition-colors">Resume</a>
           </li>
         </ul>
       </nav>
