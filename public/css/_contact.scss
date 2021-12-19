@@ -1,0 +1,10 @@
+.form-wrapper{
+  width: 87%;
+  // height: 44rem;
+  // box-shadow: 0rem 0.8rem 0rem 0rem rgb(0 0 0 / 15%);
+  box-shadow: 0rem 0.5rem 0.5rem 0rem #08101b;
+
+  .field:focus{
+    border-bottom-color: rgb(32, 44, 55);
+  }
+}

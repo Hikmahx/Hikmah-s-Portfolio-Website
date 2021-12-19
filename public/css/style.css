@@ -144,4 +144,14 @@ header .menu ul {
   -webkit-transform: translateY(-0.4rem);
           transform: translateY(-0.4rem);
 }
+
+.form-wrapper {
+  width: 87%;
+  -webkit-box-shadow: 0rem 0.5rem 0.5rem 0rem #08101b;
+          box-shadow: 0rem 0.5rem 0.5rem 0rem #08101b;
+}
+
+.form-wrapper .field:focus {
+  border-bottom-color: #202c37;
+}
 /*# sourceMappingURL=style.css.map */
