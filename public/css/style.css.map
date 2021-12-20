@@ -7,7 +7,8 @@
         "_hero.scss",
         "_skills.scss",
         "_projects.scss",
-        "_contact.scss"
+        "_contact.scss",
+        "_footer.scss"
     ],
     "names": [],
     "file": "style.css"
