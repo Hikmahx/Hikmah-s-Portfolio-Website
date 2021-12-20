@@ -1,0 +1,15 @@
+footer{
+  a{
+    &:hover{
+      color: rgb(108, 253, 240);
+    }
+
+    svg{
+      g{
+        &:hover{
+          fill: rgb(108, 253, 240);
+        }
+      }
+    }
+  }
+}

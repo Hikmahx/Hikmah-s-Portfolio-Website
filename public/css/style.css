@@ -154,4 +154,12 @@ header .menu ul {
 .form-wrapper .field:focus {
   border-bottom-color: #202c37;
 }
+
+footer a:hover {
+  color: #6cfdf0;
+}
+
+footer a svg g:hover {
+  fill: #6cfdf0;
+}
 /*# sourceMappingURL=style.css.map */
