@@ -1,5 +1,4 @@
 import React from 'react'
-// import logo from '../assets/logo.png'
 
 const Navbar = () => {
   const displayMenu = ()=>{
@@ -13,7 +12,6 @@ const Navbar = () => {
     <header className="absolute text-white left-0 right-0 flex items-baseline md:items-center justify-between z-20 md:my-8 md:mx-10 lg:my-16 lg:mx-20">
       <div className="logo m-6 md:m-0">
         <a className="text-base" href="/">
-          {/* <img className="w-28" src={logo} alt="logo" /> */}
           HY
         </a>
       </div>
@@ -33,7 +31,7 @@ const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
           <li onClick={displayMenu} style={{borderColor:'#6cfdf0'}} className="mx-6 md:mx-3 my-3 md:w-auto text-center border-2 rounded">
-            <a href="/" className="py-6 md:py-4 px-6 hover:text-black transition-colors">Resume</a>
+            <a href={require("../assets/Hikmah-Yousuph-Resume.pdf")} alt="Hikmah Yousuph's resume" target="_blank" className="py-6 md:py-4 px-6 hover:text-black transition-colors" rel="noopener noreferrer">Resume</a>
           </li>
         </ul>
       </nav>
