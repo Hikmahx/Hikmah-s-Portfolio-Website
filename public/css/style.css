@@ -61,41 +61,33 @@ header .menu ul {
 
 @media (max-width: 639px) {
   .hero .hero-text {
-    top: 15%;
+    margin-top: 20%;
+    margin-bottom: 17%;
+    max-width: 33rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   .hero .hero-text h1 {
-    white-space: nowrap;
     font-size: 2rem;
+  }
+  .hero .hero-text p {
+    line-height: 1.75rem;
   }
 }
 
 @media (max-width: 359px) {
-  .hero .hero-text {
-    top: 6%;
-  }
   .hero .hero-text h1 {
     white-space: normal;
   }
 }
 
-@media (min-width: 480px) {
-  .hero {
-    height: 60vh;
-  }
-}
-
-@media (min-width: 720px) {
-  .hero {
-    height: 70vh;
-  }
+.hero .hero-background {
+  z-index: -1;
 }
 
 @media (min-width: 1440px) {
-  .hero {
-    min-height: 65vh;
-  }
   .hero .hero-text {
-    top: 9rem;
+    margin-top: 9rem;
   }
 }
 

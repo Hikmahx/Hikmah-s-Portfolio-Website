@@ -2,38 +2,37 @@
   .hero-text{
         
     @media(max-width: 639px){   
-      top:15%;
+      margin-top: 20%;
+      margin-bottom: 17%;
+      max-width: 33rem;
+      margin-left: auto;
+      margin-right: auto;
+
 
       h1{
-        white-space: nowrap;
         font-size: 2rem;
       }
+
+      p{
+        line-height: 1.75rem;
+      }
     }
-
+    
     @media(max-width:359px){
-      top: 6%;
-
       h1{
         white-space: normal;
       }
     }
-
   }
 
-  @media(min-width:480px){
-    height: 60vh;
-  }  
-  
-  
-  @media(min-width:720px){
-    height: 70vh;
+  .hero-background{
+    z-index: -1;
   }
 
   @media(min-width:1440px){
-    min-height: 65vh;
 
     .hero-text{
-      top: 9rem;
+      margin-top: 9rem;
     }
   }
 
