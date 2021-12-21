@@ -4,9 +4,9 @@ const Contact = () => {
 
   
   return (
-    <section style={{background:'#202c37'}} className="contact py-16 px-4 md:px-10 bg-gray-50 text-white flex flex-col items-center justify-center">
+    <section id="contact" style={{background:'#202c37'}} className="contact py-16 px-4 md:px-10 bg-gray-50 text-white flex flex-col items-center justify-center">
       <h2 className="flex justify-center font-bold lg:text-4xl mb-6">Contact</h2>
-      <div className="form-wrapper bg-white w-full max-w-2xl md:max-w-3xl py-16 px-8 sm:px-12">
+      <div className="form-wrapper bg-white w-full max-w-2xl md:max-w-3xl py-16 px-6 sm:px-12">
         <form action="mailto:hikmayousuph@gmail.com" method="POST" encType="multipart/form-data" name="contactForm" className="" id="contact-form">
             <div class="input-group my-4 border-b-2">
               <input type="text" id="name" name="Name" aria-label="name" className="field focus:outline-none w-full text-black" placeholder="Name"/>            
