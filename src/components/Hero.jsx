@@ -6,7 +6,7 @@ import heroDesktop from '../assets/hero-img/hero-desktop.jpg'
 
 const Hero = () => {
   return (
-    <div className="hero relative overflow-hidden" id="home">
+    <section id="home" className="hero relative overflow-hidden">
       <div className="hero-background absolute inset-0">
         <img src={heroMobile} className="relative w-full sm:hidden" alt="hero-mobile" />   
         <img src={heroTablet} className="relative w-full hidden sm:block lg:hidden" alt="hero-tablet" />   
@@ -25,7 +25,7 @@ const Hero = () => {
           <button className="px-6 py-4 mt-6 hover:text-black transition-colors cursor-pointer ">Contact Me</button>
         </a>
       </div>
-    </div>
+    </section>
   )
 }
 
