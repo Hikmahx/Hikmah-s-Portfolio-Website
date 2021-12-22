@@ -9,13 +9,13 @@ const Contact = () => {
       <div className="form-wrapper bg-white w-full max-w-2xl md:max-w-3xl py-16 px-6 sm:px-12">
         <form  action="https://formsubmit.co/hikmayousuph@gmail.com" method="POST">
             <div className="input-group my-4 border-b-2">
-              <input type="text" id="name" name="fullName" aria-label="name" className="field focus:outline-none w-full text-black" placeholder="Name" required/>            
+              <input type="text" id="name" name="NAME" aria-label="name" className="field focus:outline-none w-full text-black" placeholder="Name" required/>            
             </div>
             <div className="input-group my-4 border-b-2">
-              <input type="email" id="email" name="email" aria-label="email" className="field focus:outline-none w-full text-black" placeholder="Email Address" required/>            
+              <input type="email" id="email" name="EMAIL" aria-label="email" className="field focus:outline-none w-full text-black" placeholder="Email Address" required/>            
             </div>
             <div className="input-group my-4 border-b-2">
-              <textarea  type="text" id="message" name="message" aria-label="message" rows="3" className="field focus:outline-none w-full text-black" placeholder="Message" required></textarea>
+              <textarea  type="text" id="message" name="MESSAGE" aria-label="message" rows="3" className="field focus:outline-none w-full text-black" placeholder="Message" required></textarea>
             </div>
             <input type="hidden" name="_subject" value="My website new submission!"/>
             <div className="input-group flex justify-end">
