@@ -17,7 +17,9 @@ const Projects = () => {
             </p>
             <div className="skills flex flex-wrap items-start mb-5">
               <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">react</div>
+              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">react-router</div>
               <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">tailwind</div>
+              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">api</div>
               <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">JS</div>
             </div>
             <div className="links flex">
@@ -58,6 +60,33 @@ const Projects = () => {
 
         <div className="project bg-white relative overflow-hidden rounded-sm w-72 lg:w-80 shadow-md mx-4 my-6">
           <div className="img-wrapper relative w-72 lg:w-80 h-72 lg:h-80">
+            <img className="w-full h-full object-cover" src={require('../assets/projects-images/space-tourism-hikmahx.vercel.app_.png')} alt="project-img" />
+          </div>
+          <div className="info p-6 flex flex-col justify-end">
+            <h3 className="font-bold uppercase mb-3">SPACE TOURISM</h3>
+            <p className="mb-4">
+              A mutli-page website providing informations about outer space. 
+              It contains two tab sections and a carousel.
+            </p>
+            <div className="skills flex flex-wrap items-start mb-5">
+            <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">react</div>
+              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">react-router</div>
+              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">sass</div>
+              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">JS</div>
+            </div>
+            <div className="links flex">
+              <a target="_blank" className="font-semibold m-2" href="https://github.com/Hikmahx/space-tourism" aria-label="github link">
+                <img className="w-6 h-6" src={require('../assets/github.svg')} alt="icon" />
+              </a>
+              <a target="_blank" className="font-semibold m-2" href="https://space-tourism-hikmahx.vercel.app/" aria-label="site link">
+                <img className="w-6 h-6" src={require('../assets/external-link.svg')} alt="icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="project bg-white relative overflow-hidden rounded-sm w-72 lg:w-80 shadow-md mx-4 my-6">
+          <div className="img-wrapper relative w-72 lg:w-80 h-72 lg:h-80">
             <img className="w-full h-full object-cover" src={require('../assets/projects-images/url-shortening-api-hikmahx.vercel.app_ (1).png')} alt="project-img" />
           </div>
           <div className="info p-6 flex flex-col justify-end">
@@ -67,6 +96,7 @@ const Projects = () => {
             </p>
             <div className="skills flex flex-wrap items-start mb-5">
               <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">JS</div>
+              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">api</div>
               <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">sass</div>
             </div>
             <div className="links flex">
@@ -99,31 +129,6 @@ const Projects = () => {
                 <img className="w-6 h-6" src={require('../assets/github.svg')} alt="icon" />
               </a>
               <a target="_blank" className="font-semibold m-2" href="https://bookmark-landing-page-hikmahx.vercel.app/" aria-label="site link">
-                <img className="w-6 h-6" src={require('../assets/external-link.svg')} alt="icon" />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="project bg-white relative overflow-hidden rounded-sm w-72 lg:w-80 shadow-md mx-4 my-6">
-          <div className="img-wrapper relative w-72 lg:w-80 h-72 lg:h-80">
-            <img className="w-full h-full object-cover" src={require('../assets/projects-images/blogr-landing-page-hikmahx.vercel.app_.png')} alt="project-img" />
-          </div>
-          <div className="info p-6 flex flex-col justify-end">
-            <h3 className="font-bold uppercase mb-3">BLOGR LANDING PAGE</h3>
-            <p className="mb-4">
-              A responsive and simple landing page buit with sass and bootstrap. 
-            </p>
-            <div className="skills flex flex-wrap items-start mb-5">
-              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">bootstrap</div>
-              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">sass</div>
-              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">JS</div>
-            </div>
-            <div className="links flex">
-              <a target="_blank" className="font-semibold m-2" href="https://github.com/Hikmahx/blogr-landing-page" aria-label="github link">
-                <img className="w-6 h-6" src={require('../assets/github.svg')} alt="icon" />
-              </a>
-              <a target="_blank" className="font-semibold m-2" href="https://blogr-landing-page-hikmahx.vercel.app/" aria-label="site link">
                 <img className="w-6 h-6" src={require('../assets/external-link.svg')} alt="icon" />
               </a>
             </div>
