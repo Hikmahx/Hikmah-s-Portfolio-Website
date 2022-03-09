@@ -71,6 +71,7 @@ const Projects = () => {
             <div className="skills flex flex-wrap items-start mb-5">
             <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">react</div>
               <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">react-router</div>
+              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">Tailwind</div>
               <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">sass</div>
               <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">JS</div>
             </div>
@@ -112,23 +113,24 @@ const Projects = () => {
 
         <div className="project bg-white relative overflow-hidden rounded-sm w-72 lg:w-80 shadow-md mx-4 my-6">
           <div className="img-wrapper relative w-72 lg:w-80 h-72 lg:h-80">
-            <img className="w-full h-full object-cover" src={require('../assets/projects-images/bookmark-landing-page-hikmahx.vercel.app_.png')} alt="project-img" />
+            <img className="w-full h-full object-cover" src={require('../assets/projects-images/ecommerce-product-page-hikmahx.vercel.app_.png')} alt="project-img" />
           </div>
           <div className="info p-6 flex flex-col justify-end">
-            <h3 className="font-bold uppercase mb-3">BOOKMARK LANDING PAGE</h3>
+            <h3 className="font-bold uppercase mb-3">ECOMMERCE PRODUCT PAGE</h3>
             <p className="mb-4">
-              A landing page with a functional tabs section and 
-              an accordion. It is highly responsive 
+              A single responsive page app of a product with a desktop light box and mobile slider
+              , and with all functionalities of a cart
             </p>
             <div className="skills flex flex-wrap items-start mb-5">
-              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">sass</div>
-              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">JS</div>
+              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">react</div>
+              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">ionicons</div>
+              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">Tailwind</div>
             </div>
             <div className="links flex">
-              <a target="_blank" className="font-semibold m-2" href="https://github.com/Hikmahx/bookmark-landing-page" aria-label="github link">
+              <a target="_blank" className="font-semibold m-2" href="https://github.com/Hikmahx/ecommerce-product-page" aria-label="github link">
                 <img className="w-6 h-6" src={require('../assets/github.svg')} alt="icon" />
               </a>
-              <a target="_blank" className="font-semibold m-2" href="https://bookmark-landing-page-hikmahx.vercel.app/" aria-label="site link">
+              <a target="_blank" className="font-semibold m-2" href="https://ecommerce-product-page-hikmahx.vercel.app/" aria-label="site link">
                 <img className="w-6 h-6" src={require('../assets/external-link.svg')} alt="icon" />
               </a>
             </div>
@@ -137,22 +139,26 @@ const Projects = () => {
 
         <div className="project bg-white relative overflow-hidden rounded-sm w-72 lg:w-80 shadow-md mx-4 my-6">
           <div className="img-wrapper relative w-72 lg:w-80 h-72 lg:h-80">
-            <img className="w-full h-full object-cover" src={require('../assets/projects-images/insure-landing-page.hikmahx.vercel.app_.png')} alt="project-img" />
+            <img className="w-full h-full object-cover" src={require('../assets/projects-images/todo-react-app.png')} alt="project-img" />
           </div>
           <div className="info p-6 flex flex-col justify-end">
-            <h3 className="font-bold uppercase mb-3">INSURE LANDING PAGE</h3>
+            <h3 className="font-bold uppercase mb-3">TODO APP</h3>
             <p className="mb-4">
-              A responsive and simple landing page buit with a bit of vanilla JavaScript and sass. 
+              A CRUD app with dark theme toggle, drag-and-drop, and filter functions. Initially, JSON-Server 
+              was the backend until the Django rest framework was created.
             </p>
             <div className="skills flex flex-wrap items-start mb-5">
-              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">sass</div>
-              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">JS</div>
+              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">react</div>
+              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">django</div>
+              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">axios</div>
+              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">tailwind</div>
+              <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">rest-api</div>
             </div>
             <div className="links flex">
-              <a target="_blank" className="font-semibold m-2" href="https://github.com/Hikmahx/insure-landing-page" aria-label="github link">
+              <a target="_blank" className="font-semibold m-2" href="https://github.com/Hikmahx/todo-django-app" aria-label="github link">
                 <img className="w-6 h-6" src={require('../assets/github.svg')} alt="icon" />
               </a>
-              <a target="_blank" className="font-semibold m-2" href="https://insure-landing-page.hikmahx.vercel.app/" aria-label="site link">
+              <a target="_blank" className="font-semibold m-2" href="https://todo-react-django-app.herokuapp.com/" aria-label="site link">
                 <img className="w-6 h-6" src={require('../assets/external-link.svg')} alt="icon" />
               </a>
             </div>
