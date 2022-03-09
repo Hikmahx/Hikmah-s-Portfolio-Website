@@ -145,7 +145,7 @@ const Projects = () => {
             <h3 className="font-bold uppercase mb-3">TODO APP</h3>
             <p className="mb-4">
               A CRUD app with dark theme toggle, drag-and-drop, and filter functions. Initially, JSON-Server 
-              was the backend until the Django rest framework was created.
+              was the backend until the Django rest API was created.
             </p>
             <div className="skills flex flex-wrap items-start mb-5">
               <div className="px-4 rounded-full m-1 bg-gray-200 text-gray-600">react</div>
