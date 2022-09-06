@@ -19,7 +19,7 @@ const Hero = () => {
           {/* <span className="block mt-4 lg:text-5xl">Front-end Developer</span> */}
         </h1>
         <p className="text-gray-100 lg:w-2/3 mt-4 lg:mt-6  max-w-xl lg:max-w-3xl px-4 py-3 sm:p-0">
-        I'm a web developer based in Lagos, Nigeria, specializing in React Front-end Web Development. Contact me for any available front-end job opportunities.
+        I'm a web developer based in Lagos, Nigeria, specializing in Front-end and Full stack Web Development. Contact me for any available front-end or full stack job opportunities.
         </p>
         <a href="#contact">
           <button className="px-6 py-4 mt-6 hover:text-black transition-colors cursor-pointer ">Contact Me</button>
