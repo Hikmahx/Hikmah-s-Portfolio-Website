@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <section className="skills py-16 bg-gray-100 px-4 md:px-10 ">
       <h2 className="flex justify-center font-bold lg:text-4xl">My Skills</h2>
-      <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-8 gap-x-2  marker:text-[#27d7c5] list-disc mx-auto items-center">
+      <ul className="mt-3 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-8 gap-x-2  marker:text-[#27d7c5] list-disc mx-auto items-center">
         <li className="py-3">HTML</li>
         <li className="py-3">CSS</li>
         <li className="py-3">JavaScript</li>
