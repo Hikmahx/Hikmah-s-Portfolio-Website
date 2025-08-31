@@ -204,6 +204,7 @@ const Projects = () => {
               <div className='links flex absolute bottom-6'>
                 <a
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='font-semibold m-2'
                   href={project.github}
                   aria-label='github link'
@@ -216,6 +217,7 @@ const Projects = () => {
                 </a>
                 <a
                   target='_blank'
+                  rel='noopener noreferrer'
                   className='font-semibold m-2'
                   href={project.live}
                   aria-label='site link'
