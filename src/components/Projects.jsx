@@ -37,7 +37,7 @@ const projects = [
       'stripe API',
     ],
     github: 'https://github.com/Hikmahx/sneakers-ecommerce-website',
-    live: 'https://sneakers-ecommerce-website.herokuapp.com/',
+    live: 'https://sneakers-z66o.onrender.com',
   },
 
   {
@@ -202,32 +202,52 @@ const Projects = () => {
                 ))}
               </div>
               <div className='links flex absolute bottom-6'>
-                <a
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='font-semibold m-2'
-                  href={project.github}
-                  aria-label='github link'
-                >
-                  <img
-                    className='w-6 h-6'
-                    src={require('../assets/github.svg').default}
-                    alt='icon'
-                  />
-                </a>
-                <a
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='font-semibold m-2'
-                  href={project.live}
-                  aria-label='site link'
-                >
-                  <img
-                    className='w-6 h-6'
-                    src={require('../assets/external-link.svg').default}
-                    alt='icon'
-                  />
-                </a>
+                {project.github ? (
+                  <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='font-semibold m-2'
+                    href={project.github}
+                    aria-label='github link'
+                  >
+                    <img
+                      className='w-6 h-6'
+                      src={require('../assets/github.svg').default}
+                      alt='icon'
+                    />
+                  </a>
+                ) : (
+                  <span className='m-2 opacity-40'>
+                    <img
+                      className='w-6 h-6'
+                      src={require('../assets/github.svg').default}
+                      alt='icon'
+                    />
+                  </span>
+                )}
+                {project.live ? (
+                  <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='font-semibold m-2'
+                    href={project.live}
+                    aria-label='site link'
+                  >
+                    <img
+                      className='w-6 h-6'
+                      src={require('../assets/external-link.svg').default}
+                      alt='icon'
+                    />
+                  </a>
+                ) : (
+                  <span className='m-2 opacity-40'>
+                    <img
+                      className='w-6 h-6'
+                      src={require('../assets/external-link.svg').default}
+                      alt='icon'
+                    />
+                  </span>
+                )}
               </div>
             </div>
           </div>
