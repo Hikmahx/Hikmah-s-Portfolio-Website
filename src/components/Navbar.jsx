@@ -16,8 +16,8 @@ const Navbar = () => {
         </a>
       </div>
       <div onClick={displayMenu} className="hamburger-menu z-10 m-6 md:m-0 md:hidden cursor-pointer flex flex-col items-center">
-        <img className="hamburger-icon w-full" src={require('../assets/icon-hamburger.svg')} alt="icon" />
-        <img className="close-icon w-full" src={require('../assets/icon-close.svg')} alt="icon" />
+        <img className="hamburger-icon w-full" src={require('../assets/icon-hamburger.svg').default} alt="icon" />
+        <img className="close-icon w-full" src={require('../assets/icon-close.svg').default} alt="icon" />
       </div>
       <nav className="menu flex-1 fixed md:relative top-0 right-0 left-24 md:left-0 pt-28 md:pt-0 pl-8 md:pl-0">
         <ul className="flex md:items-center md:justify-end text-white uppercase h-screen md:h-auto flex-col md:flex-row">

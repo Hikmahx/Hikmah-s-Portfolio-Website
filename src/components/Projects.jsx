@@ -210,7 +210,7 @@ const Projects = () => {
                 >
                   <img
                     className='w-6 h-6'
-                    src={require('../assets/github.svg')}
+                    src={require('../assets/github.svg').default}
                     alt='icon'
                   />
                 </a>
@@ -222,7 +222,7 @@ const Projects = () => {
                 >
                   <img
                     className='w-6 h-6'
-                    src={require('../assets/external-link.svg')}
+                    src={require('../assets/external-link.svg').default}
                     alt='icon'
                   />
                 </a>
