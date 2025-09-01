@@ -17,7 +17,7 @@ const projects = [
       'A blog website built with Next.js and MDX for articles. It features a clean and modern design, with support for syntax highlighting, responsive layouts. The UI is styled using ShadCN components for consistency and accessibility.',
     skills: ['typescript', 'next.js', 'mdx', 'tailwind', 'shadcn/ui'],
     github: 'https://github.com/Hikmahx/blog-nextjs',
-    live: 'https://blog-nextjs-hikmah-yousuphs-projects.vercel.app/blog',
+    live: 'https://blog-nextjs-three-sigma.vercel.app/blog',
   },
   {
     title: 'SNEAKERS E-COMMERCE WEBSITE',
