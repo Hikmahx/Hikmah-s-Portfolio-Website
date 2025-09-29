@@ -55,6 +55,7 @@ const projects = [
     ],
     github: 'https://github.com/Hikmahx/sneakers-ecommerce-website',
     live: 'https://sneakers-z66o.onrender.com',
+    position: 'center'
   },
   {
     title: 'BLOG WEBSITE',
@@ -65,7 +66,22 @@ const projects = [
     github: 'https://github.com/Hikmahx/blog-nextjs',
     live: 'https://blog-nextjs-three-sigma.vercel.app/blog',
   },
-
+  {
+    title: 'LEARNWELL',
+    image: require('../assets/projects-images/learnwell.png'),
+    description:
+      'A full-stack mobile application that empowers users to explore a wide range of subjects and topics in an engaging and user-friendly manner. It offers learning experience with a focus on mobile accessibility and interactivity.',
+    skills: [
+      'react-native',
+      'expo',
+      'figma',
+      'express',
+      'tailwind',
+      'typescript',
+    ],
+    github: 'https://github.com/Hikmahx/LearnWell/',
+    live: '',
+  },
   {
     title: 'GBEZOHN SPORTS',
     image: require('../assets/projects-images/gbezohn-sports.surge.sh_nba.png'),
@@ -84,22 +100,6 @@ const projects = [
     ],
     github: 'https://github.com/filly-coder/Gbezohn-Sports/',
     live: 'https://gbezohn-sports.surge.sh/',
-  },
-  {
-    title: 'LEARNWELL',
-    image: require('../assets/projects-images/learnwell.png'),
-    description:
-      'A full-stack mobile application that empowers users to explore a wide range of subjects and topics in an engaging and user-friendly manner. It offers learning experience with a focus on mobile accessibility and interactivity.',
-    skills: [
-      'react-native',
-      'expo',
-      'figma',
-      'express',
-      'tailwind',
-      'typescript',
-    ],
-    github: 'https://github.com/Hikmahx/LearnWell/',
-    live: '',
   },
   {
     title: 'PAYROLL SYSTEM',
@@ -191,15 +191,15 @@ const Projects = () => {
       <h2 className='flex justify-center font-bold lg:text-4xl mb-4'>
         Projects
       </h2>
-      <div className='container flex flex-wrap justify-center mx-auto'>
+      <div className='container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center mx-auto gap-5 lg:gap-8'>
         {projects.map((project) => (
           <div
             key={project.title}
-            className='project bg-white relative overflow-hidden rounded-sm w-72 lg:w-80 shadow-md mx-4 my-6'
+            className='project bg-white relative overflow-hidden rounded-sm w-full shadow-md my-6'
           >
-            <div className='img-wrapper relative w-72 lg:w-80 h-72 lg:h-80'>
+            <div className='img-wrapper relative w-full h-80'>
               <img
-                className='w-full h-full object-cover'
+                className={`w-full h-full object-cover ${project.position ? `object-${project.position}`: 'object-top'}`}
                 src={project.image}
                 alt='project-img'
               />
