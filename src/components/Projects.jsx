@@ -2,6 +2,32 @@ import React from 'react'
 
 const projects = [
   {
+    title: 'CONTENT WRITER WEBSITE',
+    image: require('../assets/projects-images/content-writer.png'),
+    description:
+      'A full-stack website featuring a blog with rich-text editing (Tiptap), an admin section, a resume generation, and a contact form.  Includes image management with Cloudinary and Google authentication with NextAuth.',
+    skills: [
+      'next.js',
+      'typescript',
+      'tailwind',
+      'shadcn/ui',
+      'prisma',
+      'cloudinary',
+      'tiptap',
+    ],
+    github: 'https://github.com/Hikmahx/sarah-yousuph',
+    live: 'https://sarah-yousuph.vercel.app',
+  },
+  {
+    title: 'TECHSTICKS',
+    image: require('../assets/projects-images/techsticks.vercel.app_.png'),
+    description:
+      'An open-source website collaborative tech resource platform where users can discover and contribute valuable resources across various fields, including design, AI, testing, accessibility, etc.',
+    skills: ['typescript', 'next.js', 'tailwind'],
+    github: 'https://github.com/Hikmahx/techsticks',
+    live: 'https://techsticks.vercel.app/',
+  },
+  {
     title: 'RIDE SHARE REST API',
     image: require('../assets/projects-images/ride-share-backend.vercel.app_.png'),
     description:
@@ -9,15 +35,6 @@ const projects = [
     skills: ['typescript', 'node.js', 'express.js', 'mongodb', 'jwt'],
     github: 'https://github.com/Hikmahx/ride-share',
     live: 'https://ride-share-backend.vercel.app/',
-  },
-  {
-    title: 'BLOG WEBSITE',
-    image: require('../assets/projects-images/blog-nextjs-hikmah-yousuphs-projects.vercel.app_blog.png'),
-    description:
-      'A blog website built with Next.js and MDX for articles. It features a clean and modern design, with support for syntax highlighting, responsive layouts. The UI is styled using ShadCN components for consistency and accessibility.',
-    skills: ['typescript', 'next.js', 'mdx', 'tailwind', 'shadcn/ui'],
-    github: 'https://github.com/Hikmahx/blog-nextjs',
-    live: 'https://blog-nextjs-three-sigma.vercel.app/blog',
   },
   {
     title: 'SNEAKERS E-COMMERCE WEBSITE',
@@ -39,15 +56,14 @@ const projects = [
     github: 'https://github.com/Hikmahx/sneakers-ecommerce-website',
     live: 'https://sneakers-z66o.onrender.com',
   },
-
   {
-    title: 'TECHSTICKS',
-    image: require('../assets/projects-images/techsticks.vercel.app_.png'),
+    title: 'BLOG WEBSITE',
+    image: require('../assets/projects-images/blog-nextjs-hikmah-yousuphs-projects.vercel.app_blog.png'),
     description:
-      'An open-source website collaborative tech resource platform where users can discover and contribute valuable resources across various fields, including design, AI, testing, accessibility, etc.',
-    skills: ['typescript', 'next.js', 'mdx', 'tailwind'],
-    github: 'https://github.com/Hikmahx/techsticks',
-    live: 'https://techsticks.vercel.app/',
+      'A blog website built with Next.js and MDX for articles. It features a clean and modern design, with support for syntax highlighting, responsive layouts. The UI is styled using ShadCN components for consistency and accessibility.',
+    skills: ['typescript', 'next.js', 'mdx', 'tailwind', 'shadcn/ui'],
+    github: 'https://github.com/Hikmahx/blog-nextjs',
+    live: 'https://blog-nextjs-three-sigma.vercel.app/blog',
   },
 
   {
