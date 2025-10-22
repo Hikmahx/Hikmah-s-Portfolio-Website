@@ -15,7 +15,7 @@ const projects = [
       'cloudinary',
       'tiptap',
     ],
-    github: 'https://github.com/Hikmahx/sarah-yousuph',
+    github: 'https://github.com/Hikmahx/content-writer-website',
     live: 'https://sarah-yousuph.vercel.app',
   },
   {
@@ -26,15 +26,6 @@ const projects = [
     skills: ['typescript', 'next.js', 'tailwind'],
     github: 'https://github.com/Hikmahx/techsticks',
     live: 'https://techsticks.vercel.app/',
-  },
-  {
-    title: 'RIDE SHARE REST API',
-    image: require('../assets/projects-images/ride-share-backend.vercel.app_.png'),
-    description:
-      'A REST API for users to create rides, request rides, and manage their profile and vehicles. It provides authentication functionality and supports CRUD operations for rides, vehicles, and ride requests.',
-    skills: ['typescript', 'node.js', 'express.js', 'mongodb', 'jwt'],
-    github: 'https://github.com/Hikmahx/ride-share',
-    live: 'https://ride-share-backend.vercel.app/',
   },
   {
     title: 'SNEAKERS E-COMMERCE WEBSITE',
@@ -54,9 +45,19 @@ const projects = [
       'stripe API',
     ],
     github: 'https://github.com/Hikmahx/sneakers-ecommerce-website',
-    live: 'https://sneakers-z66o.onrender.com',
-    position: 'center'
+    live: 'https://sneakers-ecommerce-website.vercel.app',
+    position: 'center',
   },
+  {
+    title: 'RIDE SHARE REST API',
+    image: require('../assets/projects-images/ride-share-backend.vercel.app_.png'),
+    description:
+      'A REST API for users to create rides, request rides, and manage their profile and vehicles. It provides authentication functionality and supports CRUD operations for rides, vehicles, and ride requests.',
+    skills: ['typescript', 'node.js', 'express.js', 'mongodb', 'jwt'],
+    github: 'https://github.com/Hikmahx/ride-share',
+    live: 'https://ride-share-backend.vercel.app/',
+  },
+
   {
     title: 'BLOG WEBSITE',
     image: require('../assets/projects-images/blog-nextjs-hikmah-yousuphs-projects.vercel.app_blog.png'),
@@ -199,7 +200,9 @@ const Projects = () => {
           >
             <div className='img-wrapper relative w-full h-80'>
               <img
-                className={`w-full h-full object-cover ${project.position ? `object-${project.position}`: 'object-top'}`}
+                className={`w-full h-full object-cover ${
+                  project.position ? `object-${project.position}` : 'object-top'
+                }`}
                 src={project.image}
                 alt='project-img'
               />
