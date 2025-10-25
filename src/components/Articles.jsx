@@ -154,13 +154,13 @@ const Articles = () => {
               onClick={() => togglePublication(pub.publication)}
               className={`w-full px-6 py-4 ${
                 expandedPublication === pub.publication ? 'border-gray-500' : ''
-              } flex items-center justify-between bg-zinc-200 hover:bg-gray-800/50 transition-colors`}
+              } flex items-center justify-between gap-4 bg-zinc-200 hover:bg-gray-800/50 transition-colors`}
             >
               <div className='flex items-center gap-3 w-96 justify-between'>
-                <span className='text-xl font-semibold w-[80%]'>
+                <span className='text-xs lg:text-xl font-semibold text-left w-[80%]'>
                   {pub.publication}
                 </span>
-                <span className='px-3 py-1 rounded-full bg-gray-200 text-sm flex justify-end'>
+                <span className='text-xs lg:text-base px-3 py-1 rounded-full bg-gray-200 text-sm flex justify-end min-w-max'>
                   {pub.articles.length}{' '}
                   {pub.articles.length === 1 ? 'article' : 'articles'}
                 </span>
