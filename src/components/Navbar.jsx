@@ -28,6 +28,9 @@ const Navbar = () => {
             <a href="#projects">Projects</a>
           </li>
           <li onClick={displayMenu} className="mx-6 md:mx-3 my-3 md:w-auto text-center">
+            <a href="#articles">Articles</a>
+          </li>
+          <li onClick={displayMenu} className="mx-6 md:mx-3 my-3 md:w-auto text-center">
             <a href="#contact">Contact</a>
           </li>
           <li onClick={displayMenu} style={{borderColor:'#6cfdf0'}} className="mx-6 md:mx-3 my-3 md:w-auto text-center border-2 rounded">

@@ -137,14 +137,14 @@ const Articles = () => {
 
   return (
     <div id='articles' className='container mx-auto py-16 px-4'>
-      <h2 className='flex justify-center font-bold lg:text-4xl mb-4'>
+      <h2 className='flex justify-center font-bold lg:text-4xl mb-8'>
         Articles
       </h2>
       <div className='space-y-4'>
         {articles.map((pub) => (
           <div
             key={pub.publication}
-            className={`bg-green-50 border-b border-gray-100 overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-gray-400`}
+            className={`bg-green-50 border-b border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-gray-400`}
             style={{
               background:
                 expandedPublication === pub.publication ? '#fff' : '#202c3708',
@@ -160,7 +160,7 @@ const Articles = () => {
                 <span className='text-xl font-semibold w-[80%]'>
                   {pub.publication}
                 </span>
-                <span className='bg-white/20 px-3 py-1 rounded-full text-sm flex-1 flex justify-end'>
+                <span className='px-3 py-1 rounded-full bg-gray-200 text-sm flex justify-end'>
                   {pub.articles.length}{' '}
                   {pub.articles.length === 1 ? 'article' : 'articles'}
                 </span>
@@ -180,7 +180,7 @@ const Articles = () => {
                     href={article.link}
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='block p-4 rounded-lg border border-gray-50 hover:border-green-50 hover:bg-gray-100 transition-all group'
+                    className='block p-4 rounded-lg border border-gray-200 hover:border-gray-400 hover:bg-green-50 hover:bg-opacity-40 transition-all group'
                   >
                     <div className='flex items-start justify-between gap-4'>
                       <div className='flex-1'>
