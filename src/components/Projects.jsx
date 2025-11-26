@@ -102,15 +102,15 @@ const projects = [
   //   github: 'https://github.com/filly-coder/Gbezohn-Sports/',
   //   live: 'https://gbezohn-sports.surge.sh/',
   // },
-  {
-    title: 'PAYROLL SYSTEM',
-    image: require('../assets/projects-images/payroll-system-rust.vercel.app_.png'),
-    description:
-      'A front-end application using JSON Server as a fake backend server for CRUD operations on employees. Once an employee is created in the database, users with administrative permission can generate and print the employee’s payslip as a PDF file.',
-    skills: ['react', 'Tailwind', 'jest', 'typescript'],
-    github: 'https://github.com/Hikmahx/payroll-system',
-    live: 'https://payroll-system-rust.vercel.app/',
-  },
+  // {
+  //   title: 'PAYROLL SYSTEM',
+  //   image: require('../assets/projects-images/payroll-system-rust.vercel.app_.png'),
+  //   description:
+  //     'A front-end application using JSON Server as a fake backend server for CRUD operations on employees. Once an employee is created in the database, users with administrative permission can generate and print the employee’s payslip as a PDF file.',
+  //   skills: ['react', 'Tailwind', 'jest', 'typescript'],
+  //   github: 'https://github.com/Hikmahx/payroll-system',
+  //   live: 'https://payroll-system-rust.vercel.app/',
+  // },
   {
     title: 'SPACE TOURISM',
     image: require('../assets/projects-images/space-tourism-hikmahx.vercel.app_.png'),
@@ -175,22 +175,32 @@ const projects = [
   //   github: 'https://github.com/Hikmahx/Url-shortening-api',
   //   live: 'https://url-shortening-api.hikmahx.vercel.app/',
   // },
-//   {
-//   title: 'ROCK PAPER SCISSORS',
-//   image: require('../assets/projects-images/rock-paper-scissors.png'),
-//   description: 'One of my earliest projects - an interactive game where users can play Rock, Paper, Scissors against the computer. Features score tracking, game rules modal, and responsive design with smooth animations.',
-//   skills: ['JS', 'html', 'css', 'sass'],
-//   github: 'https://github.com/Hikmahx/Rock-paper-scissors',
-//   live: 'https://rock-paper-scissors-hikmahx.vercel.app/',
-// },
-{
-  title: 'EMPLOYEE DASHBOARD',
-  image: require('../assets/projects-images/employee-dashboard-fawn.vercel.app_.png'),
-  description: 'A comprehensive dashboard for managing employee data. Features include employee CRUD operations, advanced filtering and sorting, and form validation with React Hook Form and Zod.',
-  skills: ['next.js', 'typescript', 'tailwind', 'shadcn/ui'],
-  github: 'https://github.com/Hikmahx/employee-dashboard',
-  live: 'https://employee-dashboard-fawn.vercel.app/',
-},
+  //   {
+  //   title: 'ROCK PAPER SCISSORS',
+  //   image: require('../assets/projects-images/rock-paper-scissors.png'),
+  //   description: 'One of my earliest projects - an interactive game where users can play Rock, Paper, Scissors against the computer. Features score tracking, game rules modal, and responsive design with smooth animations.',
+  //   skills: ['JS', 'html', 'css', 'sass'],
+  //   github: 'https://github.com/Hikmahx/Rock-paper-scissors',
+  //   live: 'https://rock-paper-scissors-hikmahx.vercel.app/',
+  // },
+  {
+    title: 'EMPLOYEE DASHBOARD',
+    image: require('../assets/projects-images/employee-dashboard-fawn.vercel.app_.png'),
+    description:
+      'A comprehensive dashboard for managing employee data. Features include employee CRUD operations, advanced filtering and sorting, and form validation with React Hook Form and Zod.',
+    skills: ['next.js', 'typescript', 'tailwind', 'shadcn/ui'],
+    github: 'https://github.com/Hikmahx/employee-dashboard',
+    live: 'https://employee-dashboard-fawn.vercel.app/',
+  },
+  {
+    title: 'LENDSQR',
+    image: require('../assets/projects-images/lendsqr-woad.vercel.app_dashboard_users.png'),
+    description:
+      'A full-stack dashboard for lenders. Includes authentication, data fetching from a mock API, search & pagination, and user status management (activation/blacklisting).',
+    skills: ['react', 'typescript', 'redux', 'sass', 'express', 'mongodb'],
+    github: 'https://github.com/Hikmahx/lendsqr-fe-test',
+    live: 'https://lendsqr-woad.vercel.app/',
+  },
 ]
 
 const Projects = () => {
