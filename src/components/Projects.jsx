@@ -183,15 +183,15 @@ const projects = [
   //   github: 'https://github.com/Hikmahx/Rock-paper-scissors',
   //   live: 'https://rock-paper-scissors-hikmahx.vercel.app/',
   // },
-  {
-    title: 'EMPLOYEE DASHBOARD',
-    image: require('../assets/projects-images/employee-dashboard-fawn.vercel.app_.png'),
-    description:
-      'A comprehensive dashboard for managing employee data. Features include employee CRUD operations, advanced filtering and sorting, and form validation with React Hook Form and Zod.',
-    skills: ['next.js', 'typescript', 'tailwind', 'shadcn/ui'],
-    github: 'https://github.com/Hikmahx/employee-dashboard',
-    live: 'https://employee-dashboard-fawn.vercel.app/',
-  },
+  // {
+  //   title: 'EMPLOYEE DASHBOARD',
+  //   image: require('../assets/projects-images/employee-dashboard-fawn.vercel.app_.png'),
+  //   description:
+  //     'A comprehensive dashboard for managing employee data. Features include employee CRUD operations, advanced filtering and sorting, and form validation with React Hook Form and Zod.',
+  //   skills: ['next.js', 'typescript', 'tailwind', 'shadcn/ui'],
+  //   github: 'https://github.com/Hikmahx/employee-dashboard',
+  //   live: 'https://employee-dashboard-fawn.vercel.app/',
+  // },
   {
     title: 'LENDSQR',
     image: require('../assets/projects-images/lendsqr-woad.vercel.app_dashboard_users.png'),
