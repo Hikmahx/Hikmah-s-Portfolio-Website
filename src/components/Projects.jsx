@@ -83,25 +83,25 @@ const projects = [
     github: 'https://github.com/Hikmahx/LearnWell/',
     live: '',
   },
-  {
-    title: 'GBEZOHN SPORTS',
-    image: require('../assets/projects-images/gbezohn-sports.surge.sh_nba.png'),
-    description:
-      'A full-stack application for retrieving NBA and MLB sports details for a specific date, including summaries, analyses, graphs, scores, and standings. It also lets users explore historical data with interactive charts.',
-    skills: [
-      'react',
-      'redux',
-      'tailwind',
-      'api',
-      'chartjs',
-      'dayjs',
-      'node',
-      'express',
-      'mongoDB',
-    ],
-    github: 'https://github.com/filly-coder/Gbezohn-Sports/',
-    live: 'https://gbezohn-sports.surge.sh/',
-  },
+  // {
+  //   title: 'GBEZOHN SPORTS',
+  //   image: require('../assets/projects-images/gbezohn-sports.surge.sh_nba.png'),
+  //   description:
+  //     'A full-stack application for retrieving NBA and MLB sports details for a specific date, including summaries, analyses, graphs, scores, and standings. It also lets users explore historical data with interactive charts.',
+  //   skills: [
+  //     'react',
+  //     'redux',
+  //     'tailwind',
+  //     'api',
+  //     'chartjs',
+  //     'dayjs',
+  //     'node',
+  //     'express',
+  //     'mongoDB',
+  //   ],
+  //   github: 'https://github.com/filly-coder/Gbezohn-Sports/',
+  //   live: 'https://gbezohn-sports.surge.sh/',
+  // },
   {
     title: 'PAYROLL SYSTEM',
     image: require('../assets/projects-images/payroll-system-rust.vercel.app_.png'),
@@ -175,15 +175,22 @@ const projects = [
   //   github: 'https://github.com/Hikmahx/Url-shortening-api',
   //   live: 'https://url-shortening-api.hikmahx.vercel.app/',
   // },
-  // {
-  //   title: 'TODO APP',
-  //   image: require('../assets/projects-images/todo-react-app.png'),
-  //   description:
-  //     'A CRUD app with dark theme toggle, drag-and-drop, and filter functions. Initially, JSON-Server was the backend until the Django rest API was created.',
-  //   skills: ['react', 'django', 'axios', 'tailwind', 'rest-api'],
-  //   github: 'https://github.com/Hikmahx/todo-django-app',
-  //   live: 'https://todo-react-django-app.herokuapp.com/',
-  // },
+//   {
+//   title: 'ROCK PAPER SCISSORS',
+//   image: require('../assets/projects-images/rock-paper-scissors.png'),
+//   description: 'One of my earliest projects - an interactive game where users can play Rock, Paper, Scissors against the computer. Features score tracking, game rules modal, and responsive design with smooth animations.',
+//   skills: ['JS', 'html', 'css', 'sass'],
+//   github: 'https://github.com/Hikmahx/Rock-paper-scissors',
+//   live: 'https://rock-paper-scissors-hikmahx.vercel.app/',
+// },
+{
+  title: 'EMPLOYEE DASHBOARD',
+  image: require('../assets/projects-images/employee-dashboard-fawn.vercel.app_.png'),
+  description: 'A comprehensive dashboard for managing employee data. Features include employee CRUD operations, advanced filtering and sorting, and form validation with React Hook Form and Zod.',
+  skills: ['next.js', 'typescript', 'tailwind', 'shadcn/ui'],
+  github: 'https://github.com/Hikmahx/employee-dashboard',
+  live: 'https://employee-dashboard-fawn.vercel.app/',
+},
 ]
 
 const Projects = () => {
