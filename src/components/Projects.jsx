@@ -19,13 +19,24 @@ const projects = [
     live: 'https://sarah-yousuph.vercel.app',
   },
   {
-    title: 'TECHSTICKS',
-    image: require('../assets/projects-images/techsticks.vercel.app_.png'),
+    title: 'JOB LISTINGS (WIP)',
+    image: require('../assets/projects-images/joblist-hikmahx.vercel.app.png'),
     description:
-      'An open-source website collaborative tech resource platform where users can discover and contribute valuable resources across various fields, including design, AI, testing, accessibility, etc.',
-    skills: ['typescript', 'next.js', 'tailwind'],
-    github: 'https://github.com/Hikmahx/techsticks',
-    live: 'https://techsticks.vercel.app/',
+      'A full-stack job listings platform built with Vue 3 and Django REST Framework. Features advanced multi-criteria filtering and semantic AI-powered search using a RAG pipeline. Currently working on it.',
+    skills: [
+      'vue.js',
+      'typescript',
+      'pinia',
+      'tailwind',
+      'shadcn-vue',
+      'django',
+      'drf',
+      'sqlite',
+      'groq',
+      'rag',
+    ],
+    github: 'https://github.com/Hikmahx/vue-job-listings',
+    live: 'https://joblist-hikmahx.vercel.app',
   },
   {
     title: 'SNEAKERS E-COMMERCE WEBSITE',
@@ -47,6 +58,15 @@ const projects = [
     github: 'https://github.com/Hikmahx/sneakers-ecommerce-website',
     live: 'https://sneakers-ecommerce-website.vercel.app',
     position: 'center',
+  },
+  {
+    title: 'TECHSTICKS',
+    image: require('../assets/projects-images/techsticks.vercel.app_.png'),
+    description:
+      'An open-source website collaborative tech resource platform where users can discover and contribute valuable resources across various fields, including design, AI, testing, accessibility, etc.',
+    skills: ['typescript', 'next.js', 'tailwind'],
+    github: 'https://github.com/Hikmahx/techsticks',
+    live: 'https://techsticks.vercel.app/',
   },
   {
     title: 'RIDE SHARE REST API',
