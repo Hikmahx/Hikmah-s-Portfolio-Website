@@ -1,11 +1,32 @@
-import React from 'react'
+import React from 'react';
 
 const projects = [
+  {
+    title: 'QUIZME — AI DOCUMENT LEARNING PLATFORM',
+    image: require('../assets/projects-images/quizme-hikmahx.vercel.app_.png'),
+    description:
+      'An AI-powered platform that turns documents into interactive learning experiences with summaries, multi-mode Q&A, and AI-generated quizzes. Built with a full RAG pipeline, semantic search (pgvector), and multi-agent workflows for quiz generation and grading, including voice-based quizzes with STT/TTS.',
+    skills: [
+      'next.js',
+      'typescript',
+      'tailwind',
+      'fastapi',
+      'postgresql',
+      'supabase',
+      'groq',
+      'rag',
+      'pgvector',
+      'langchain',
+      'crewai',
+    ],
+    github: 'https://github.com/Hikmahx/QuizMe',
+    live: 'https://quizme-hikmahx.vercel.app',
+  },
   {
     title: 'CONTENT WRITER WEBSITE',
     image: require('../assets/projects-images/content-writer.png'),
     description:
-      'A full-stack website featuring a blog with rich-text editing (Tiptap), an admin section, a resume generation, and a contact form.  Includes image management with Cloudinary and Google authentication with NextAuth.',
+      'A full-stack website featuring a blog with rich-text editing (Tiptap), an admin section, a resume generation, an AI chat assistant, and a contact form.  Includes image management with Cloudinary and Google authentication with NextAuth.',
     skills: [
       'next.js',
       'typescript',
@@ -14,9 +35,10 @@ const projects = [
       'prisma',
       'cloudinary',
       'tiptap',
+      'groq',
     ],
     github: 'https://github.com/Hikmahx/content-writer-website',
-    live: 'https://sarah-yousuph.vercel.app',
+    live: 'https://sarahyousuph.com',
   },
   {
     title: 'JOB LISTINGS (WIP)',
@@ -212,16 +234,16 @@ const projects = [
   //   github: 'https://github.com/Hikmahx/employee-dashboard',
   //   live: 'https://employee-dashboard-fawn.vercel.app/',
   // },
-  {
-    title: 'LENDSQR',
-    image: require('../assets/projects-images/lendsqr-woad.vercel.app_dashboard_users.png'),
-    description:
-      'A full-stack dashboard for lenders. Includes authentication, data fetching from a mock API, search & pagination, and user status management (activation/blacklisting).',
-    skills: ['react', 'typescript', 'redux', 'sass', 'express', 'mongodb'],
-    github: 'https://github.com/Hikmahx/lendsqr-fe-test',
-    live: 'https://lendsqr-woad.vercel.app/',
-  },
-]
+  // {
+  //   title: 'LENDSQR',
+  //   image: require('../assets/projects-images/lendsqr-woad.vercel.app_dashboard_users.png'),
+  //   description:
+  //     'A full-stack dashboard for lenders. Includes authentication, data fetching from a mock API, search & pagination, and user status management (activation/blacklisting).',
+  //   skills: ['react', 'typescript', 'redux', 'sass', 'express', 'mongodb'],
+  //   github: 'https://github.com/Hikmahx/lendsqr-fe-test',
+  //   live: 'https://lendsqr-woad.vercel.app/',
+  // },
+];
 
 const Projects = () => {
   return (
@@ -310,7 +332,7 @@ const Projects = () => {
         ))}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
