@@ -93,6 +93,13 @@ const Articles = () => {
       publication: 'Personal Blog (Medium)',
       articles: [
         {
+          name: 'Transitioning into AI Engineering as a Full-Stack Developer',
+          date: 'June 2026',
+          link: 'https://medium.com/@hikmahx/transitioning-into-ai-engineering-as-a-full-stack-developer-ff4c7ed92449',
+          description:
+            'My personal journey of transitioning from a full-stack developer to an AI engineer, including the skills I learned and the challenges I faced.',
+        },
+        {
           name: 'Web Accessibility: Making the Internet Inclusive for Everyone',
           date: 'Sep 2023',
           link: 'https://medium.com/@hikmahx/web-accessibility-making-the-internet-inclusive-for-everyone-1b1cee53e4a',
