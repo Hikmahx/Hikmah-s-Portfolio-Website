@@ -5,6 +5,53 @@ const Articles = () => {
 
   const articles = [
     {
+      publication: 'Personal Blog (Medium)',
+      articles: [
+        {
+          name: 'Transitioning into AI Engineering as a Full-Stack Developer',
+          date: 'June 2026',
+          link: 'https://medium.com/@hikmahx/transitioning-into-ai-engineering-as-a-full-stack-developer-ff4c7ed92449',
+          description:
+            'My personal journey of transitioning from a full-stack developer to an AI engineer, including the skills I learned and the challenges I faced.',
+        },
+        {
+          name: 'Web Accessibility: Making the Internet Inclusive for Everyone',
+          date: 'Sep 2023',
+          link: 'https://medium.com/@hikmahx/web-accessibility-making-the-internet-inclusive-for-everyone-1b1cee53e4a',
+          description:
+            'Exploring the importance of web accessibility and practical steps to make websites usable for people with disabilities.',
+        },
+        {
+          name: 'How to Print PDF Files with React',
+          date: 'May 2023',
+          link: 'https://medium.com/@hikmahx/how-to-print-pdf-files-with-react-using-react-to-print-tailwind-884c46750c35',
+          description:
+            'A practical guide to implementing PDF generation and printing functionality in React applications using react-to-print.',
+        },
+        {
+          name: 'Creating Customized Graphs with Chart.js in React',
+          date: 'Aug 2023',
+          link: 'https://medium.com/@hikmahx/creating-customized-graphs-with-chart-js-in-react-be72bb2ffd0',
+          description:
+            'Learn how to create beautiful, interactive data visualizations in React using the Chart.js library.',
+        },
+        {
+          name: 'React Native for Beginners: Setting Up a Project',
+          date: 'May 2023',
+          link: 'https://medium.com/@hikmahx/react-native-for-beginners-setting-up-a-project-d534f321bb1a',
+          description:
+            'A step-by-step guide to setting up your first React Native project for mobile app development.',
+        },
+        {
+          name: 'ChatGPT vs Developers',
+          date: 'Apr 2023',
+          link: 'https://medium.com/@hikmahx/chapgpt-vs-developers-e7a3eef20b94',
+          description:
+            'Examining the impact of AI tools like ChatGPT on software development and the developer role.',
+        },
+      ],
+    },    
+    {
       publication: 'OpenReplay',
       articles: [
         {
@@ -86,53 +133,6 @@ const Articles = () => {
           link: 'https://medium.com/shecodeafrica/responsive-web-design-practices-59c4b2425080',
           description:
             'Essential techniques and best practices for creating responsive web designs that work across all devices.',
-        },
-      ],
-    },
-    {
-      publication: 'Personal Blog (Medium)',
-      articles: [
-        {
-          name: 'Transitioning into AI Engineering as a Full-Stack Developer',
-          date: 'June 2026',
-          link: 'https://medium.com/@hikmahx/transitioning-into-ai-engineering-as-a-full-stack-developer-ff4c7ed92449',
-          description:
-            'My personal journey of transitioning from a full-stack developer to an AI engineer, including the skills I learned and the challenges I faced.',
-        },
-        {
-          name: 'Web Accessibility: Making the Internet Inclusive for Everyone',
-          date: 'Sep 2023',
-          link: 'https://medium.com/@hikmahx/web-accessibility-making-the-internet-inclusive-for-everyone-1b1cee53e4a',
-          description:
-            'Exploring the importance of web accessibility and practical steps to make websites usable for people with disabilities.',
-        },
-        {
-          name: 'How to Print PDF Files with React',
-          date: 'May 2023',
-          link: 'https://medium.com/@hikmahx/how-to-print-pdf-files-with-react-using-react-to-print-tailwind-884c46750c35',
-          description:
-            'A practical guide to implementing PDF generation and printing functionality in React applications using react-to-print.',
-        },
-        {
-          name: 'Creating Customized Graphs with Chart.js in React',
-          date: 'Aug 2023',
-          link: 'https://medium.com/@hikmahx/creating-customized-graphs-with-chart-js-in-react-be72bb2ffd0',
-          description:
-            'Learn how to create beautiful, interactive data visualizations in React using the Chart.js library.',
-        },
-        {
-          name: 'React Native for Beginners: Setting Up a Project',
-          date: 'May 2023',
-          link: 'https://medium.com/@hikmahx/react-native-for-beginners-setting-up-a-project-d534f321bb1a',
-          description:
-            'A step-by-step guide to setting up your first React Native project for mobile app development.',
-        },
-        {
-          name: 'ChatGPT vs Developers',
-          date: 'Apr 2023',
-          link: 'https://medium.com/@hikmahx/chapgpt-vs-developers-e7a3eef20b94',
-          description:
-            'Examining the impact of AI tools like ChatGPT on software development and the developer role.',
         },
       ],
     },
