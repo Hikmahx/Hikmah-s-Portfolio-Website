@@ -15,6 +15,13 @@ const Articles = () => {
             'My personal journey of transitioning from a full-stack developer to an AI engineer, including the skills I learned and the challenges I faced.',
         },
         {
+          name: 'Basic Terms and Terminologies to Know in AI Engineering',
+          date: 'Jun 2026',
+          link: 'https://medium.com/@hikmahx/basic-terms-terminologies-to-know-in-ai-engineering-7e90fb630259',
+          description:
+            'A beginner-friendly guide to essential AI engineering terms and concepts grouped into LLM, RAG, AI Agents, and MCP that every aspiring AI engineer should know.',
+        },
+        {
           name: 'Web Accessibility: Making the Internet Inclusive for Everyone',
           date: 'Sep 2023',
           link: 'https://medium.com/@hikmahx/web-accessibility-making-the-internet-inclusive-for-everyone-1b1cee53e4a',
