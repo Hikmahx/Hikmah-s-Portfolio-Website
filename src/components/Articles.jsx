@@ -22,6 +22,13 @@ const Articles = () => {
             'A beginner-friendly guide to essential AI engineering terms and concepts grouped into LLM, RAG, AI Agents, and MCP that every aspiring AI engineer should know.',
         },
         {
+          name: 'Introduction to RAG',
+          date: 'Jun 2026',
+          link: 'https://medium.com/@hikmahx/introduction-to-rag-29a02ed2fe9b',
+          description:
+            'An introduction to Retrieval-Augmented Generation (RAG), its use cases, its benefits, and everything you need to know to get started with RAG in AI applications.',
+        },
+        {
           name: 'Web Accessibility: Making the Internet Inclusive for Everyone',
           date: 'Sep 2023',
           link: 'https://medium.com/@hikmahx/web-accessibility-making-the-internet-inclusive-for-everyone-1b1cee53e4a',
