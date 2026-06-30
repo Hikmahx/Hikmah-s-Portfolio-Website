@@ -15,6 +15,14 @@ const Articles = () => {
             'My personal journey of transitioning from a full-stack developer to an AI engineer, including the skills I learned and the challenges I faced.',
         },
         {
+          name: 'Building a RAG Backend Pipeline (QuizMe Phase 1)',
+          date: 'Jun 2026',
+          link: 'https://medium.com/@hikmahx/building-a-rag-backend-pipeline-quizme-phase-1-6e317073a79e',
+          description:
+            'A beginner-friendly tutorial on building a RAG pipeline from scratch covering chunking, embeddings, vector search, and automatic collection cleanup.',
+
+        },
+        {
           name: 'Basic Terms and Terminologies to Know in AI Engineering',
           date: 'Jun 2026',
           link: 'https://medium.com/@hikmahx/basic-terms-terminologies-to-know-in-ai-engineering-7e90fb630259',
