@@ -27,6 +27,7 @@ const skills = [
   { name: 'Firebase', icon: require('../assets/firebase.svg').default },
   { name: 'MixPanel', icon: require('../assets/mixpanel.svg').default },
   { name: 'Bootstrap', icon: require('../assets/bootstrap.svg').default },
+  { name: 'Vue', icon: require('../assets/vue.svg').default },
 ]
 
 // Split skills array
