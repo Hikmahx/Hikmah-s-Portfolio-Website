@@ -19,7 +19,7 @@ const Hero = () => {
           {/* <span className="block mt-4 lg:text-5xl">Front-end Developer</span> */}
         </h1>
         <p className="text-gray-100 lg:w-2/3 mt-4 lg:mt-6 max-w-xl lg:max-w-3xl px-4 py-3 sm:p-0 leading-loose">
-          Full-Stack Software Developer and Open-Source Contributor passionate about building web and mobile apps, designing intuitive UIs, and tech writing. Contact me for any available job opportunities.
+          Full-Stack Software Developer and Open-Source Contributor passionate about building web and mobile apps, designing intuitive UIs, tech writing, and AI engineering. Contact me for any available job opportunities.
         </p>
         <a href="#contact">
           <button className="px-6 py-4 mt-6 hover:text-black transition-colors cursor-pointer ">Contact Me</button>
