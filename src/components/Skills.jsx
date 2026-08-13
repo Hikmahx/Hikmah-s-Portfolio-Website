@@ -28,6 +28,7 @@ const skills = [
   { name: 'MixPanel', icon: require('../assets/mixpanel.svg').default },
   { name: 'Bootstrap', icon: require('../assets/bootstrap.svg').default },
   { name: 'Vue', icon: require('../assets/vue.svg').default },
+  { name: 'Prisma', icon: require('../assets/prisma.svg').default },
 ]
 
 // Split skills array
