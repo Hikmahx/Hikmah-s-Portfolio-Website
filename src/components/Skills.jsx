@@ -29,6 +29,7 @@ const skills = [
   { name: 'Bootstrap', icon: require('../assets/bootstrap.svg').default },
   { name: 'Vue', icon: require('../assets/vue.svg').default },
   { name: 'Prisma', icon: require('../assets/prisma.svg').default },
+  { name: 'Django', icon: require('../assets/django.svg').default },
 ]
 
 // Split skills array
