@@ -30,6 +30,7 @@ const skills = [
   { name: 'Vue', icon: require('../assets/vue.svg').default },
   { name: 'Prisma', icon: require('../assets/prisma.svg').default },
   { name: 'Django', icon: require('../assets/django.svg').default },
+  { name: 'Supabase', icon: require('../assets/supabase.svg').default }
 ]
 
 // Split skills array
