@@ -146,15 +146,6 @@ const projects = [
   //   github: 'https://github.com/filly-coder/Gbezohn-Sports/',
   //   live: 'https://gbezohn-sports.surge.sh/',
   // },
-  // {
-  //   title: 'PAYROLL SYSTEM',
-  //   image: require('../assets/projects-images/payroll-system-rust.vercel.app_.png'),
-  //   description:
-  //     'A front-end application using JSON Server as a fake backend server for CRUD operations on employees. Once an employee is created in the database, users with administrative permission can generate and print the employee’s payslip as a PDF file.',
-  //   skills: ['react', 'Tailwind', 'jest', 'typescript'],
-  //   github: 'https://github.com/Hikmahx/payroll-system',
-  //   live: 'https://payroll-system-rust.vercel.app/',
-  // },
   {
     title: 'SPACE TOURISM',
     image: require('../assets/projects-images/space-tourism-hikmahx.vercel.app_.png'),
