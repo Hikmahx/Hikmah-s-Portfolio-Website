@@ -4,10 +4,7 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 
 const skills = [
-  // { name: 'HTML', icon: require('../assets/html.svg').default },
-  // { name: 'CSS', icon: require('../assets/css.svg').default },
   { name: 'Python', icon: require('../assets/python.svg').default },
-  // { name: 'JavaScript', icon: require('../assets/javascript.svg').default },
   { name: 'TypeScript', icon: require('../assets/typescript.svg').default },
   { name: 'React', icon: require('../assets/react.svg').default },
   { name: 'React Native', icon: require('../assets/react-native.svg').default },
