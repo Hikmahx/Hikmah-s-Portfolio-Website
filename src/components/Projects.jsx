@@ -1,5 +1,3 @@
-import React from 'react';
-
 const projects = [
   {
     title: 'QUIZME — AI DOCUMENT LEARNING PLATFORM',
