@@ -35,6 +35,7 @@ const projects = [
       'tiptap',
       'groq',
       'figma',
+      'mongodb'
     ],
     github: 'https://github.com/Hikmahx/content-writer-website',
     live: 'https://sarahyousuph.com',
