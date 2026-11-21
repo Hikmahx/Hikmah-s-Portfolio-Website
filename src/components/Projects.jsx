@@ -16,6 +16,9 @@ const projects = [
       'pgvector',
       'langchain',
       'crewai',
+      'plasmo',
+      'react native',
+      'expo'
     ],
     github: 'https://github.com/Hikmahx/QuizMe',
     live: 'https://quizme-hikmahx.vercel.app',
@@ -60,6 +63,22 @@ const projects = [
     ],
     github: 'https://github.com/Hikmahx/vue-job-listings',
     live: 'https://joblist-hikmahx.vercel.app',
+  },
+    {
+    title: 'MY DUA COLLECTION (WIP)',
+    image: require('../assets/projects-images/my-dua-collection.png'),
+    description:
+      'A mobile app for collecting, organizing and reciting duas. Features searchable duas with translations, custom collections, a tasbih counter, Explore articles with the 99 Names of Allah, and adding your own duas with duplicate detection. An AI assistant for questions about duas is planned.',
+    skills: [
+      'react-native',
+      'expo',
+      'typescript',
+      'redux',
+      'tailwind',
+      'figma',
+    ],
+    github: 'https://github.com/Hikmahx/my-dua-collection',
+    live: '',
   },
   {
     title: 'SNEAKERS E-COMMERCE WEBSITE',
