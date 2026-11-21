@@ -68,7 +68,7 @@ const projects = [
     title: 'MY DUA COLLECTION (WIP)',
     image: require('../assets/projects-images/my-dua-collection.png'),
     description:
-      'A mobile app for collecting, organizing and reciting duas. Features searchable duas with translations, custom collections, a tasbih counter, Explore articles with the 99 Names of Allah, and adding your own duas with duplicate detection. An AI assistant for questions about duas is planned.',
+      'A mobile app for collecting, organizing and reciting duas. Features searchable duas with translations, custom collections, a tasbih counter, Explore articles with the 99 Names of Allah, and adding your own duas with duplicate detection.',
     skills: [
       'react-native',
       'expo',
